@@ -1,0 +1,42 @@
+#container {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -10%);
+    color: white;
+    width: 220px;
+    height: 405px;
+    background-color: #232832;
+    border: 2px solid #34475c;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 30px
+}
+
+input[type="checkbox" i] {
+    position: relative;
+    opacity: 0%;
+}
+
+.marshall {
+    position: relative;
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.lod {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-left: 162px;
+    margin-top: -13px;
+    border-radius: 30px;
+    background-color: rgb(255, 60, 60);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.lod {
+    background-color: #00ff40;
+}
